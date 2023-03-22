@@ -1735,6 +1735,7 @@ body {
 .success-container__2 h2 {
     padding: 1rem;
     text-align: start;
+    font-size: 1rem;
     font-weight: 400;
 }
 
