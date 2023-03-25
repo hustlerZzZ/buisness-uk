@@ -2297,14 +2297,6 @@ video {
     font-size: 1rem
 }
 
-.video-wrapper {
-    width: 100%;
-    display: flex;
-    padding: 3rem 2rem;
-}
 
-.video-wrapper .video-wrapper__img {
-    width: 50%;
-}
 
 /*# sourceMappingURL=index.d307fbb8.css.map */
