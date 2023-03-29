@@ -433,6 +433,7 @@
     </section>
     
     <script>
+
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwrfCuijFm-gktBTY40IUzUZ4cLOxgVxgJHg4NT94KXnrz3RYFK4gWK8GSNd54ltDmH/exec';
         const form = document.forms['submit-to-google-sheet']
 
@@ -440,8 +441,8 @@
             e.preventDefault()
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
-                    window.open("BM-UK.pdf");
-                    alert("Form Successfully submited!!")
+                    window.open("thankyou.html");
+
                 })
                 .catch(error => console.error('Error!', error.message))
         })
@@ -453,8 +454,7 @@
             e.preventDefault()
             fetch(scriptURL_2, { method: 'POST', body: new FormData(form_2) })
                 .then(response => {
-                    window.open("BM-UK.pdf");
-                    alert("Form Successfully submited!!")
+                    window.open("thankyou.html");
                 })
                 .catch(error => console.error('Error!', error.message))
         })
